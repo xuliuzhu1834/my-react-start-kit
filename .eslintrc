@@ -1,0 +1,14 @@
+{
+  "extends": "airbnb",
+  "parser": "babel-eslint",
+  "env": {
+    "browser": true
+  },
+  "rules": {
+    "no-console": [0],
+    "no-constant-condition": ["error", { "checkLoops": false }]
+  },
+  "globals": {
+    "process": true
+  }
+}
