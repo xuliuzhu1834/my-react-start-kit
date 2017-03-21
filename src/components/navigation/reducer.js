@@ -6,10 +6,17 @@ import assign from 'object-assign';
 
 const menus = [
   {
-    name: '商品管理',
-    key: 'goods',
+    name: '导航',
+    key: 'navigation',
     icon: 'bars',
-    children: [],
+    children: [
+      // {
+      //   link: '/commodities',
+      //   name: '商品绑定供应商列表',
+      //   crubName: '供应商列表',
+      //   nav: true,
+      // },
+    ],
   },
 ];
 

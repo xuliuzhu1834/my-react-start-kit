@@ -26,8 +26,8 @@ const store = createStore(
   compose(
     applyMiddleware(
       routerMiddleware(hashHistory),
+      sagaMiddleware,
     ),
-    applyMiddleware(sagaMiddleware),
     (window.devToolsExtension && window.devToolsExtension()) || (f => f),
   ),
 );

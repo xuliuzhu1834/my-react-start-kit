@@ -38,7 +38,7 @@ class Navigation extends React.Component {
         >
           <div className={styles.antLayoutLogo} >
             <Link to="/">
-              商品信息中心
+              后台管理
             </Link>
           </div>
           <Sider current={current} menus={menus} routerMatchList={routerMatchList} />
